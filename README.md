@@ -1,5 +1,5 @@
 # LinuxName v1.0
-Change your Linux name on top navigation bar with ease<br />
+Change your Linux top navigation header name with ease<br />
 e.g From "Ubuntu Desktop" to "Sparky's Castle" <br />
 
 ## Setup
