@@ -1,11 +1,6 @@
 import os,pwd,subprocess,sys
 
-if len( sys.argv ) > 1:
-    ### Check Command Line Args
-    name = sys.argv[1]
-else:
-    ### User Input
-    name = raw_input("Enter new PC name: ")
+name = raw_input("Enter new PC name: ")
 
 ### Variables Setup
 user = pwd.getpwuid( os.getuid() )[0]
