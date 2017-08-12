@@ -18,11 +18,18 @@ subprocess.call( ("sudo msgfmt -o unity.mo " + home + "/desktop1.po").split() )
 
 
 print "You must Login again to bring changes into effect."
+print "Make sure you save all your active works before logging out."
 res = raw_input("Logout? (y/n) ")
 
 ### Final Work
-if res in "y yes".split():
-    cmd = "sudo pkill -KILL -u " + user
-    subprocess.call( cmd.split() )
-else:
+try:
+    if res in "y yes".split():
+        cmd = "sudo pkill -KILL -u " + user
+        subprocess.call( cmd.split() )
+    else:
+        exit(0)
+except SystemError:
+    print "System Error Occurred"
+    print "mailto: chinmaya.cp@gmail.com"
+finally:
     exit(0)
