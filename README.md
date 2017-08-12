@@ -1,29 +1,23 @@
 # LinuxName v1.0
-Change your Linux name on top navigation bar with ease
-<br />
-e.g From "Ubuntu Desktop" to "Sparky's Castle"
+Change your Linux name on top navigation bar with ease<br />
+e.g From "Ubuntu Desktop" to "Sparky's Castle" <br />
 
-<br />
 ## Setup
 Install 2.7.* to run with
-Download from https://www.python.org/downloads
+Download from https://www.python.org/downloads <br />
 
-<br />
 ## Usage
-```python linuxname.py [options]```
+```python linuxname.py [options]``` <br />
 
-<br />
 **options :**
 - -h, --help : print help usage and exit
 - PCNAME     : Enter new PC name to update 
 - -u, --user : followed by username
-- -p, --path : followed by temporary filename **(mention absolute path)**
+- -p, --path : followed by temporary filename **(mention absolute path)**<br />
 
-<br />
 ## Hugs or Bugs
-Welcoming thoughts [at] chinmaya.cp@gmail.com
+Welcoming thoughts [at] chinmaya.cp@gmail.com<br />
 
-<br />
 ## License
 ISC
 
